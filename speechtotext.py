@@ -7,7 +7,7 @@ speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_r
 
 # Creates an audio configuration that points to an audio file.
 # Replace with your own audio filename.
-audio_filename = "whatstheweatherlike.wav"
+audio_filename = "narration.wav"
 audio_input = speechsdk.AudioConfig(filename=audio_filename)
 
 # Creates a recognizer with the given settings
